@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration Form</h2>
+    <form id="registrationForm">
+      <label>First Name</label>
+      <input type="text" id="firstName">
+      <span class="error" id="firstNameError"></span>
+
+      <label>Middle Name</label>
+      <input type="text" id="middleName">
+
+      <label>Last Name</label>
+      <input type="text" id="lastName">
+      <span class="error" id="lastNameError"></span>
+
+      <label>Suffix</label>
+      <input type="text" id="suffix">
+
+      <label>Contact No.</label>
+      <input type="text" id="contact">
+      <span class="error" id="contactError"></span>
+
+      <label>Email</label>
+      <input type="text" id="email">
+      <span class="error" id="emailError"></span>
+
+      <label>Course</label>
+      <input type="text" id="course">
+      <span class="error" id="courseError"></span>
+
+      <label>Batch</label>
+      <input type="text" id="batch">
+      <span class="error" id="batchError"></span>
+
+      <label>ID</label>
+      <input type="text" id="studentId">
+      <span class="error" id="idError"></span>
+
+      <button type="submit">Register</button>
+      <div class="success" id="successMessage">Registration Successful!</div>
+    </form>
+  </div>
+
+  <script src="assets/js/function.js"></script>
+  <script src="assets/js/validation.js"></script>
+
+</body>
+</html>
